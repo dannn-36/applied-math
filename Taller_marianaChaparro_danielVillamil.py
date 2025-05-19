@@ -244,7 +244,7 @@ def menu():
         print("1. Rotar imagen 90°")
         print("2. Insertar letra en imagen")
         print("3. Regresión lineal")
-        print("4. Perceptrón")
+        print("4. Regresion logística")
         print("5. Salir")
 
         opcion = input("Opción: ")
