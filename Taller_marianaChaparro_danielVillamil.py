@@ -181,7 +181,7 @@ def punto3():
 
 
 def punto4():
-    # Cada muestra es un vector con 4 features + 1 label (último valor)
+    # Cada muestra es un vector con 4 variables + un resultado (último valor)
     datos = np.array([
         [20, 6, 0, 2, 0.12],
         [30, 4, 1, 3, 0.60],
@@ -190,8 +190,8 @@ def punto4():
         [22, 7, 0, 5, 0.05],
     ])
 
-    X = datos[:, :4]   # Features
-    y = datos[:, 4]    # Labels
+    X = datos[:, :4]   # variables de entrada
+    y = datos[:, 4]    # resultado
 
 
     X = X / np.max(X, axis=0) 
